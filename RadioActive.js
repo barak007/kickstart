@@ -89,25 +89,3 @@ var App = {
 	}
 }
 
-
-
-/*
-var sums = {};
-var count = 0;
-document.body.addEventListener('activity', function(event){
-	var id = event.target.dataset.id = event.target.dataset.id || ('id_' + (++count));
-
-	if(sums[id]){
-		sums[id].count++;
-		sums[id].value = (sums[id].value + event.detail.value)/2;
-	} else {
-		sums[id] = {
-			el: event.target,
-			value: event.detail.value,
-			count: 1
-		}
-	}
-  
-  //console.log(event.detail);
-});
-*/
